@@ -1,0 +1,718 @@
+@media screen and (max-width: 767px) 
+{
+
+
+    #Home
+    {
+        height: 100vh;
+        width: 100%;
+    }
+    .pic1
+    {
+        display: none !important;
+    }
+    .nav-btn
+    {
+        background-color: orangered !important;
+        margin-left: 10px;
+    }
+     .content-align::before
+    {
+        content: '';
+        height: 110px;
+        width: 110px;
+        border-radius: 50%;
+        position: absolute !important;
+        top:130px !important;
+        left: 0px;
+        background-color: orange; 
+        z-index: -1; 
+        opacity: .7;
+        animation: rotate 2s infinite ease-in-out;
+        
+    }
+
+    
+.content-align::after
+{
+   content: '';
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   position: absolute !important;
+   bottom:180px !important;
+   left: 230px;
+  
+   background-color: orange; 
+   z-index: -3; 
+   opacity: .7;
+   animation: rotate 2s infinite ease-in-out;
+}
+
+  
+    .home-btn
+    {
+        padding: 10px;
+    }
+    
+    label
+    {
+        display: none !important;
+    }
+    .headpic
+    {
+        display: none !important;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* Best page */
+
+
+    #Best
+    {
+        height: 600vh;
+        width: 100%;
+    }
+    
+
+    .exclusive-content
+    {
+        margin-top: 30px;
+        font-size: 2.4rem;
+        width: 100%;
+    }
+
+    .exclusive-content2
+    {
+        width: 100%;
+    }
+    .exclusive-box
+    {
+        
+        display: grid;
+    }
+    .flip-card
+    {
+        margin: 20px;
+    }
+    
+
+    .client-title
+    {
+        font-size: 2.6rem !important; 
+    }
+
+ 
+   .slider__image 
+    {
+       
+        position: absolute;
+        top:-350px;
+        
+       
+    }
+
+
+    .slider__caption
+    {
+        
+        position: absolute;
+        top:-140px;
+        font-size: 2.3rem;
+    }
+    .slider__txt 
+    {
+        margin-top: -100px;
+        font-size: 1.2rem;
+        font-weight: 100;
+        width: 80%;
+       
+    }
+
+
+
+
+
+    /* About page : */
+
+    .pic3
+    {
+        margin-top: 20px;
+    }
+
+    .content3
+    {
+        font-size: 2.1rem;
+    }
+
+
+
+    .exclusive-content4
+    {
+        font-size: 2.3rem;
+        width: 100%;
+    }
+
+
+    .team-align
+    {
+             display: grid;
+             
+    }
+    
+    .our-team
+    {
+        width: 120%;
+    }
+
+    /* Courses page : */
+
+    #Courses
+    {
+        height: 565vh;
+        width: 100%;
+        margin-top: 250px;
+    }
+    .title2
+    {
+        margin-top: 30px;
+    }
+    .content7
+    {
+        font-size: 2.3rem;
+        width: 60%;
+    }
+    .box
+    {
+        margin-bottom: 40px;
+    }
+    .box-align
+    {
+        flex-wrap: wrap;
+       
+    }
+
+    .box-align2
+    {
+        margin: -10px;
+        flex-wrap: wrap;
+       
+    }
+
+    .price
+    {
+        text-align: center !important;
+        width: 30%;
+       
+        
+        
+    }
+    .box
+    {
+        height: 50%;
+        width: 50%;
+        
+    }
+
+
+
+
+
+/* Contact page*/
+
+
+#Contact
+{
+    height: 180vh !important;
+    width: 100%;
+}
+
+.map,iframe
+{
+    width: 90%;
+   text-align: center !important;
+}
+
+.contact-title
+{
+    margin-top: 50px;
+}
+
+.contact-content
+{
+    font-size: 2.3rem;
+    width: 60%;
+    margin: auto;
+}
+
+form
+{
+    margin-top: 20px;
+}
+
+
+
+
+
+/* Footer */
+#Footer
+{
+    height: 180vh !important; 
+    width: 100%;
+}
+
+
+.footer-links
+{
+    margin-top: 70px;
+}
+
+.company-links
+{
+    margin-top: 20px;
+}
+
+.quote
+{
+    margin-top: 50px;
+   text-align: center;
+   
+}
+
+
+.company-social-links, .links2
+{
+  justify-content: center !important;
+}
+
+
+.form-group
+{
+    display: grid;
+}
+.mail
+{
+    width: 80%;
+    margin: auto;
+}
+.sign-up-btn
+{
+    width: 20%;
+    margin:20px auto;
+}
+
+.top-btn
+{
+    position: absolute;
+  
+}
+
+
+}
+
+
+
+/*     */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 740px) 
+{
+
+
+    #Home
+    {
+        height: 100vh;
+        width: 100%;
+    }
+    .pic1
+    {
+        display: none !important;
+    }
+    .nav-btn
+    {
+        background-color: orangered !important;
+        margin-left: 10px;
+    }
+     .content-align::before
+    {
+        content: '';
+        height: 110px;
+        width: 110px;
+        border-radius: 50%;
+        position: absolute !important;
+        top:230px !important;
+        left: -60px;
+        background-color: orange; 
+        z-index: -1; 
+        opacity: .7;
+        animation: rotate 2s infinite ease-in-out;
+        
+    }
+
+    
+.content-align::after
+{
+   content: '';
+   height: 60px;
+   width: 60px;
+   border-radius: 50%;
+   position: absolute !important;
+   bottom:275px !important;
+   left: 150px;
+  
+   background-color: orange; 
+   z-index: -3; 
+   opacity: .7;
+   animation: rotate 2s infinite ease-in-out;
+}
+
+  
+    .home-btn
+    {
+        font-size: 1.2rem;
+        padding:10px;
+        width: 50%;
+    }
+
+
+    .content1
+    {
+        margin-left: -50px;
+    }
+
+    .content2
+    {
+        margin-left: -30px;
+        font-size: 3.4rem;
+        
+    }
+    
+    label
+    {
+        display: none !important;
+    }
+    .headpic
+    {
+        display: none !important;
+    }
+
+
+
+
+
+
+
+
+
+
+    /* Best page */
+
+
+    #Best
+    {
+        height: 590vh;
+        width: 100%;
+    }
+    
+    .exclusive-box
+    {
+        
+        display: grid;
+    }
+    .flip-card
+    {
+        margin: 20px;
+    }
+    
+
+    .client-title
+    {
+        font-size: 2.6rem !important; 
+    }
+
+    
+
+   .slider_nav
+    {
+        position: absolute;
+        top:400px;
+    }
+
+   .slider__image 
+    {
+       
+        position: absolute;
+        top:-380px;
+        margin-bottom: 150px;
+        
+       
+    }
+
+
+    .slider__caption
+    {
+        
+       position: absolute;
+       top: -170px;
+        font-size: 2.3rem;
+        margin-bottom: 100px !important;
+        
+       
+    }
+    .slider__txt 
+    {
+        margin-top: 200px;
+        font-size: 1.3rem;
+        font-weight: 500;
+        width: 100%;
+        margin-bottom: 350px;
+       
+    }
+
+
+
+
+
+    /* About page : */
+
+
+    #About
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+
+    .pic3
+    {
+        margin-top: 20px;
+    }
+
+    .content3
+    {
+        font-size: 2.1rem;
+    }
+
+
+
+    .content4
+    {
+        font-weight: 500;
+    }
+
+
+    .exclusive-content4
+    {
+        font-size: 2.3rem;
+        width: 100%;
+    }
+
+    .About-btn
+    {
+        margin-left: -40px;
+    }
+
+    .phone-btn
+    {
+        margin-right: -15px;
+    }
+
+    .team-align
+    {
+             display: grid;
+             
+    }
+    
+    .our-team
+    {
+        width: 120%;
+    }
+
+    /* Courses page : */
+
+    #Courses
+    {
+        height: 550vh;
+        width: 100%;
+        margin-top: 250px;
+    }
+    .title2
+    {
+        margin-top: 30px;
+    }
+    .content7
+    {
+        font-size: 2.3rem;
+        width: 60%;
+    }
+    .box
+    {
+        display: grid;
+        margin-bottom: 40px;
+        
+    }
+
+    .wrapper,.box-pic
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .box-align
+    {
+       
+        flex-wrap: wrap;
+       
+    }
+
+    .box-align2
+    {
+        margin: -0px;
+        flex-wrap: wrap;
+       
+    }
+
+
+   
+
+    .price
+    {
+        text-align: center !important;
+        width: 50%;
+       
+        
+        
+    }
+    .box
+    {
+        height: 50%;
+        width: 50%;
+        
+    }
+
+
+
+
+
+/* Contact page*/
+
+
+#Contact
+{
+    height: 100vh;
+    width: 100%;
+}
+
+.map,iframe
+{
+    width: 90%;
+   text-align: center !important;
+}
+
+.contact-title
+{
+    margin-top: 50px;
+}
+
+.contact-content
+{
+    font-size: 2.3rem;
+    width: 80%;
+    margin: auto;
+}
+
+form
+{
+    margin: 50px auto; 
+    width: 80%;
+    
+}
+
+.form-btn
+{
+    width: 30%;
+}
+
+
+
+
+/* Footer */
+#Footer
+{
+    height: 190vh !important; 
+    width: 100%;
+}
+
+
+.footer-links
+{
+    margin-top: 70px;
+}
+
+
+
+.company-links
+{
+    margin-top: 20px;
+}
+
+.quote
+{
+    margin-top: 50px;
+   text-align: center;
+   
+}
+
+
+.company-social-links, .links2
+{
+  justify-content: center !important;
+}
+
+
+.form-group
+{
+    display: grid;
+}
+.mail
+{
+    width: 80%;
+    margin: auto;
+}
+.sign-up-btn
+{
+    width: 20%;
+    margin:20px auto;
+}
+
+
+
+.titleh4 
+{
+    position: absolute;
+    bottom: -150px;
+}
+.top-btn
+{
+    position: absolute;
+    bottom: -140px;
+  
+}
+
+
+}
